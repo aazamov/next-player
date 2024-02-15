@@ -1,5 +1,14 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+// import axios from "axios";
 
-export default function handler(req, res) {
-  res.status(200).json({ name: "John Doe" });
-}
+// axios.interceptors.response.use(
+//   (response) => {
+//     if (response.config.url === "YOUR_PLAYLIST_URL_HERE") {
+//       // Modify the playlist (add a new line)
+//       response.data += "\n#EXT-X-CUSTOM-TAG: YOUR_CUSTOM_DATA";
+//     }
+//     return response;
+//   },
+//   (error) => {
+//     return Promise.reject(error);
+//   }
+// );
